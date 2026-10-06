@@ -1,5 +1,9 @@
 # 🗺 Nico's Portfolio
 Bienvenido  a mi portafolio de Datos, acá hay un recopilatorio de mis proyectos de análisis de datos
+## Analisis completo E-commerce Olist
+| Link al proyecto | Area | Descripción | Librerias |
+| --- | --- | --- | --- |
+| [Ver Proyecto](https://github.com/NeoG14/Olist-Analisis) | ETL, EDA, PostgreSQL , Power Bi | Este proyecto analiza el rendimiento operativo, financiero y logístico de Olist, una plataforma de comercio electrónico brasileña. El análisis abarca el ciclo completo de los datos: desde la extracción y limpieza (ETL), pasando por el análisis exploratorio con SQL, hasta la visualización en dashboards interactivos para la extracción de insights de negocio.| pandas |
 
 ## Analisis exploratório con Python 
 | Link al proyecto | Area | Descripción | Librerias |

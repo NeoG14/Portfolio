@@ -1,5 +1,11 @@
 # 🗺 Nico's Portfolio
 Bienvenido  a mi portafolio de Datos, acá hay un recopilatorio de mis proyectos de análisis de datos
+## Pipeline de precios de supermercados en la nube (SEPA, Argentina)
+
+| Link al proyecto | Area | Descripción | Tecnologías |
+| --- | --- | --- | --- |
+| [Ver Proyecto](https://github.com/NeoG14/sepa-pipeline)<br><br>[Ver sitio en vivo](https://neog14.github.io/sepa-pipeline/) | Ingeniería de datos, ETL, modelado, automatización, clasificación con ML y LLM | Pipeline de punta a punta que descarga todos los días ~14 millones de registros de precios del dataset oficial SEPA (el portal los borra a la semana), los valida y guarda en Parquet, los transforma con dbt sobre DuckDB y los publica en MotherDuck. Un workflow de GitHub Actions exporta los datos y actualiza solo un sitio web estático. Incluye un índice de precios encadenado para ver la inflación por cadena y provincia, y la clasificación de 73 mil productos en 85 categorías (reglas + regresión logística 86,4 % de acierto vs. LLM 91,6 %, medido sobre 300 productos no vistos). Responde cuánto cambian los precios de los supermercados día a día. | Python, dbt, DuckDB, MotherDuck, Parquet, GitHub Actions, GitHub Pages, scikit-learn |
+
 ## Pipeline de ofertas de trabajo en datos (Latinoamérica)
 | Link al proyecto | Area | Descripción | Tecnologías |
 | --- | --- | --- | --- |
